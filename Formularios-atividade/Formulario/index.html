@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastre-se </title>
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="main">
+        <section class="section-left">
+            <img src="./assets/images/oculos-escuros.png" alt="">
+        </section>
+        <section class="section-right">
+            <div class="texto">
+                <h1> Criar meu cadastro </h1>
+                <p> Para acompanhar sua contratação de crédito você utilizará seu e-mail e CPF </p>
+            </div>
+            <div class="forms">
+                <form action="">
+                    <div>
+                        <label for=""> Nome </label>
+                        <input placeholder="nome" type="text" required>
+                    </div>
+                    <div>
+                        <label for=""> E-mail </label>
+                        <input placeholder="e-mail" type="email" required>
+                    </div>
+                    <div>
+                        <label for=""> CPF </label>
+                        <input placeholder="*******-**" type="number" required>
+                    </div>
+                    <div>
+                        <label for=""> Data de Nascimento </label>
+                        <input placeholder="" type="date" required>
+                    </div>
+                    <div>
+                        <label for=""> Senha </label>
+                        <input placeholder="******" type="password" minlength="6" maxlength="15" required>
+                    </div>
+                    <div>
+                        <label for="">Confirmar senha</label>
+                        <input placeholder="Sua senha novamente" type="password" minlength="6" maxlength="15" required>
+                    </div>
+                    <span class="politicas">
+                        <input type="checkbox" required>
+                        <span class="texto-politicas">
+                            <p>Li e estou de acordo com a Política de Privacidade e a Política de Uso de
+                                Informações.</a>
+                        </span>
+                    </span>
+                </form>
+            </div>
+            <button type="criar-conta">
+                Criar conta:
+            </button>
+            <span class="login">
+                <p> Já possuo conta </p>
+                <a href=""> Entrar agora </a>
+            </span>
+        </section>
+    </section>
+</body>
+
+</html>
